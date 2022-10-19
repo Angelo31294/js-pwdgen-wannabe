@@ -1,6 +1,6 @@
 // Chiedi all'utente il suo nome
-const firtsName = prompt("Ciao, inserisci il tuo nome");
-console.log(typeof firtsName, firtsName);
+const firstName = prompt("Ciao, inserisci il tuo nome");
+console.log(typeof firstName, firstName);
 
 // Chiedi all'utente il suo cognome
 const lastName = prompt("Inserisci il tuo cognome");
@@ -11,3 +11,15 @@ const color = prompt("Inserisci il tuo colore preferito");
 console.log(typeof color, color);
 
 // Scrivi sulla pagina nomecognomecolorepreferito76
+console.log(
+    `
+    ${firstName}${lastName}${color}${76}
+    `
+)
+
+
+document.querySelector("h1").innerHTML = (
+    `
+    ${firstName}${lastName}${color}${76}
+    `
+);
