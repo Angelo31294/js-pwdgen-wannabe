@@ -10,13 +10,13 @@ console.log(typeof lastName, lastName);
 const color = prompt("Inserisci il tuo colore preferito");
 console.log(typeof color, color);
 
-// Scrivi sulla pagina nomecognomecolorepreferito76
 console.log(
     `
     ${firstName}${lastName}${color}${76}
     `
-)
+    );
 
+// Scrivi sulla pagina nomecognomecolorepreferito76
 
 document.querySelector("h1").innerHTML = (
     `
